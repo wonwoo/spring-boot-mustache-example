@@ -1,0 +1,27 @@
+{{!
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Post</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width" />
+  <base href="/" />
+
+</head>
+<body>}}
+{{#layout}}
+
+<div class="container">
+  <h1>Post</h1>
+  {{#posts}}
+  <h3>{{title}}</h3>
+  <br>
+  <div class="markdown-body">{{{content}}}</div>
+  <br>
+  <br>
+  {{/posts}}
+</div>
+{{/layout}}
+{{!</body></html>}}
